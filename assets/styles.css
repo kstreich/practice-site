@@ -12,3 +12,7 @@
 .headerText {
   font-size: 11px;
 }
+
+.mainPic {
+  background-image: url("flowers.jpg");
+  background-size: cover;
