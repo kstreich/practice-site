@@ -1,3 +1,4 @@
+/*Header*/
 .iconBulb {
   height: 8vh;
 }
@@ -10,6 +11,8 @@
 .headerText {
   font-size: 11px;
 }
+
+/*Photo Section*/
 .mainTitle {
   font-family: Pacifico, Arial;
   font-size: 3em;
@@ -36,6 +39,8 @@
   display: flex;
   justify-content: center;
 }
+
+/*Text Center*/
 .bodyRow{
   height: 20rem;
   background-color: rgb(155, 142, 146);
@@ -48,7 +53,10 @@
   line-height: 122%;
 }
 
-.picSize{
+/*Three Images*/
+.smallPics{
   height: 12em;
-  background-image: 
+  background-image: url("purpleFlowers.jpg");
+  background-position: center;
+  background-size: 20%;
 }
