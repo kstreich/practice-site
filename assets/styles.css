@@ -51,12 +51,33 @@
 }
 .bodyTextFont {
   line-height: 122%;
+  text-align: center
 }
 
 /*Three Images*/
+.smallPicCont{
+  margin-top: 7em;
+  margin-bottom: 7em;
+}
+
 .smallPics{
   height: 12em;
-  background-image: url("purpleFlowers.jpg");
   background-position: center;
-  background-size: 20%;
+  background-size: 100%;
+  outline: solid 14px white;
+  display: flex;
+  align-items: center:
+}
+.smallPicRow{
+  display: flex;
+  justify-content: center;
+}
+.smallPicOne{
+background-image: url("succulents.jpg");
+}
+.smallPicTwo{
+  background-image: url("hydrangia.jpg");
+}
+.smallPicThree{
+ background-image: url("groundCover.jpg")
 }
