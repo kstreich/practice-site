@@ -44,6 +44,10 @@
 .bodyRow{
   height: 20rem;
   background-color: rgb(155, 142, 146);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Roboto Slab;
 }
 .bodyText {
   display: flex;
@@ -80,4 +84,39 @@ background-image: url("succulents.jpg");
 }
 .smallPicThree{
  background-image: url("groundCover.jpg")
+}
+
+/*Footer*/
+.footerCool {
+  background-color: black;
+  color: white;
+  height: 15vh;
+  font-family: Krub;
+  font-size: 16px;
+  bottom: 0;
+}
+.footerRow {
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+
+.f-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+.contact {
+  padding: 1.5rem;
+}
+
+.addr {
+  padding: 1.5rem;
+}
+
+.p-m {
+  margin: .5rem;
 }
