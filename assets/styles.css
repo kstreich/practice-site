@@ -44,8 +44,11 @@
   display: flex;
   align-items: center;
 }
-
+.bodyTextFont {
+  line-height: 122%;
+}
 
 .picSize{
-  height: 9em;
+  height: 12em;
+  background-image: 
 }
