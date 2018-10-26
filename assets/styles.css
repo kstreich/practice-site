@@ -62,28 +62,49 @@
 .smallPicCont{
   margin-top: 7em;
   margin-bottom: 7em;
+  
 }
 
 .smallPics{
   height: 12em;
   background-position: center;
   background-size: 100%;
-  outline: solid 14px white;
+  
+}
+.smallPicText{
+  color: white;
+  font-family: Roboto Slab;
+  font-size: 35px;
   display: flex;
-  align-items: center:
+  justify-content: center;
 }
 .smallPicRow{
   display: flex;
   justify-content: center;
 }
 .smallPicOne{
-background-image: url("succulents.jpg");
+  background-image: url("succulents.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 .smallPicTwo{
   background-image: url("hydrangia.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .smallPicThree{
- background-image: url("groundCover.jpg")
+  background-image: url("groundCover.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.descriptText{
+  display: flex;
+  justify-content: center;
+  text-align: justify;
 }
 
 /*Footer*/
@@ -119,4 +140,9 @@ background-image: url("succulents.jpg");
 
 .p-m {
   margin: .5rem;
+}
+
+/*Link Colors Header*/
+a {
+  color: rgb(78, 123, 111);
 }
